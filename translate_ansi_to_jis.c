@@ -26,6 +26,8 @@ const uint16_t translate_map[][2] = {
   {KC_COLN, KC_QUOT      }, // 221 + 512
   {KC_DQT,  LSFT(KC_2)   }, // 221 + 512
   {KC_TILD, LSFT(KC_EQL) }, // 221 + 512
+  {LSFT(KC_CAPS), KC_GRV },
+  {KC_CAPS, LSFT(KC_CAPS)},
 };
 const size_t rows = sizeof(translate_map) / sizeof(translate_map[0]);
 
