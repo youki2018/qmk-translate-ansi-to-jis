@@ -28,7 +28,7 @@ QMK Firmware でキーマップを作成するほとんどの方はANSI配列で
 
 ```
 $ cd /path/to/your/keymap/dir
-$ git submodule add https://github.com/m47ch4n/qmk-translate-ansi-to-jis.git a2j
+$ git submodule add https://github.com/noejii/qmk-translate-ansi-to-jis.git a2j
 ```
 
 ### 2. `rules.mk` を編集
